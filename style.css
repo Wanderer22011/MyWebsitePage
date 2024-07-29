@@ -8,11 +8,23 @@
     position: relative;
 }
 
+img{
+    width: 100%;
+}
+
 .hero-text{
     color: whitesmoke;
     position: absolute;
     text-align: center;
-    top: 280px;
+    top: 180px;
     width: 100%;
-    font-size: 2rem;
+    font-size: 4rem;
+}
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
 }
